@@ -1,6 +1,6 @@
 let arr = [2,3,7,46];
 // pop() method ==> detele the value of end of the index
-console.log(arr.pop());
+// console.log(arr.pop());
 // console.log(arr);
 
 
@@ -40,6 +40,19 @@ let fruts = ['apple','orange','mango']
 
 // slice() method
 let t =  arr1.slice(1,4)
-console.log(t);
+// console.log(t);
+
+// splice method
+let arr6 = [1,3,5,7,8,9];
+// arr6.splice(4,1)
+// console.log(arr6);
 
 
+// reverse() method
+let arr7 = [1,2,3,4,5,6]
+arr7.reverse();
+console.log(arr7);
+
+// sort method
+arr7.sort()
+console.log(arr7);
