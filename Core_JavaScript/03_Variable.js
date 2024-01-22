@@ -55,7 +55,7 @@ console.log(a+d);
 // For Example
 const age = 20;
 console.log(age);
-// age = 26;
+// age = 26; // not allowed because variable type const
 // console.log(age);//TypeError: Assignment to constant variable.
 
 // some example
