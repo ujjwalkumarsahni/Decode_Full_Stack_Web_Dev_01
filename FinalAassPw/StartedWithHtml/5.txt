@@ -1,0 +1,5 @@
+What is the DOCTYPE Declaration in HTML?
+DOCTYPE Declaration:
+
+The DOCTYPE declaration is a preamble at the beginning of an HTML document that tells the web browser what version of HTML the page is written in.
+In HTML5, the DOCTYPE declaration is <!DOCTYPE html>. It ensures that the browser renders the page in standards mode, which is important for consistent and correct rendering of the page.

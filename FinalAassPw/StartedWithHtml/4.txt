@@ -1,0 +1,5 @@
+Tag :- A tag in HTML is a keyword enclosed within angle brackets (< >). Tags define elements and tell the browser how to structure or display content on the webpage.
+
+Element :- An element in HTML is the combination of a start tag, its content, and an end tag (if applicable).
+The content within an element can be text, other HTML elements, or both.
+
