@@ -1,0 +1,10 @@
+Q1: Creating and Dropping Database & Collection
+
+use MyDatabase  # Create or switch to a database
+db.createCollection("Customers")  # Create a collection
+db.Customers.drop()  # Drop the collection
+db.dropDatabase()  # Drop the database
+
+Q7: Create a New Database Named "SchoolDB"
+use SchoolDB
+
