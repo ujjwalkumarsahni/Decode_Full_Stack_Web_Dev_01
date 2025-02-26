@@ -1,0 +1,17 @@
+Task 1: Create a New Branch Named feature-greeting
+git branch feature-greeting
+
+Task 2: Switch to the New Branch
+git checkout feature-greeting
+
+Task 3: Commit the Changes in the Feature Branch
+git add script.js
+git commit -m "Added personalizedGreeting function"
+
+
+Task 4: Merge feature-greeting into the Main Branch
+git checkout main
+git merge feature-greeting
+
+Task 5: Switch Back to the Main Branch
+git checkout main

@@ -1,0 +1,24 @@
+Task 1: Initialize a Git Repository
+
+cd path/to/your/project
+git init
+
+
+Task 2: Create a script.js File
+touch script.js
+
+
+Task 3: Add and Commit the Changes
+git add script.js
+git commit -m "Added script.js with a greet function"
+
+
+
+git remote add origin https://github.com/your-username/your-repository.git
+
+
+git push -u origin main
+
+
+
+

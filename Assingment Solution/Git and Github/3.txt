@@ -1,0 +1,39 @@
+🔹 Task 1: Create a GitHub Repository for Your JavaScript Project
+Go to GitHub and log in to your account.
+Click the ➕ (plus icon) → "New repository" at the top right.
+Enter a repository name (e.g., "js-project").
+Select "Public" or "Private", depending on your preference.
+Click "Create repository".
+✅ GitHub will provide you with a remote URL (something like https://github.com/your-username/js-project.git).
+
+
+🔹 Task 2: Push Your Local Repository to the GitHub Repository
+
+git remote add origin https://github.com/your-username/js-project.git
+git branch -M main
+git push -u origin main
+
+
+🔹 Task 3: Invite a Team Member to Collaborate
+Go to your GitHub repository.
+Click "Settings" → "Manage access".
+Click "Invite a collaborator" and enter their GitHub username or email.
+Send the invitation.
+✅ Once they accept, they can make changes.
+
+Task 4: Team Member Clones the Repository & Makes a Change
+git clone https://github.com/your-username/js-project.git
+cd js-project
+
+
+
+git add script.js
+git commit -m "Added farewell function"
+git push origin main
+
+
+
+🔹 Task 5: Fetch & Merge the Changes from Your Team Member
+git fetch origin
+git merge origin/main
+cat script.js
